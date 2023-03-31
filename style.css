@@ -1,0 +1,25 @@
+.mainBody{
+    display: grid;
+    text-align: center;
+    margin-top: 20%;
+}
+
+h2 {
+    font-size: 4em;
+    background: linear-gradient(to right, #ff00ff, #00ff00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorChange 2s ease-in-out infinite;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+
+  
+  
